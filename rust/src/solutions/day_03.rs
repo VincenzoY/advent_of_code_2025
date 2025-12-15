@@ -3,7 +3,7 @@ use std::{cmp::max, error::Error};
 
 pub struct Day03Solution {}
 
-impl Solution<u64> for Day03Solution {
+impl Solution for Day03Solution {
     fn problem_one(input: &str) -> Result<Answer, Box<dyn Error>>  {
         let mut sum: u64 = 0;
 

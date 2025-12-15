@@ -25,6 +25,8 @@ fn main() {
         3 => (Day03Solution::problem_one(&file), Day03Solution::problem_two(&file)),
         4 => (Day04Solution::problem_one(&file), Day04Solution::problem_two(&file)),
         5 => (Day05Solution::problem_one(&file), Day05Solution::problem_two(&file)),
+        6 => (Day06Solution::problem_one(&file), Day06Solution::problem_two(&file)),
+        7 => (Day07Solution::problem_one(&file), Day07Solution::problem_two(&file)),
         _ => process::exit(1),
     };
 

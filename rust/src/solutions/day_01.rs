@@ -4,7 +4,7 @@ use crate::solution::{Answer, Solution};
 
 pub struct Day01Solution {}
 
-impl Solution<i64> for Day01Solution {
+impl Solution for Day01Solution {
     fn problem_one(input: &str) -> Result<Answer, Box<dyn Error>> {
         let lines = input.lines();
         let mut zeros_count: i64 = 0;
