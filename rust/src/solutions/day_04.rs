@@ -14,7 +14,7 @@ const ADJACENT_DIRECTIONS: [[i32; 2]; 8] = [
 
 pub struct Day04Solution {}
 
-impl Solution<i32> for Day04Solution {
+impl Solution for Day04Solution {
     fn problem_one(input: &str) -> Result<Answer, Box<dyn Error>>  {
         let matrix = parse_input(input);
         let mut result = 0;

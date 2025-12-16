@@ -3,7 +3,7 @@ use std::error::Error;
 
 pub struct Day02Solution {}
 
-impl Solution<u64> for Day02Solution {
+impl Solution for Day02Solution {
     fn problem_one(_input: &str) -> Result<Answer, Box<dyn Error>> {
         Err("Unimplemented".into())
     }

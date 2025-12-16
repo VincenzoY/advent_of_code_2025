@@ -7,7 +7,7 @@ pub enum Answer {
     String(String),
 }
 
-pub trait Solution<A, B = A> {
+pub trait Solution {
     fn problem_one(input: &str) -> Result<Answer, Box<dyn Error>>;
     fn problem_two(input: &str) -> Result<Answer, Box<dyn Error>>;
 }

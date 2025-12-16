@@ -3,7 +3,7 @@ use std::{cmp::max, error::Error};
 
 pub struct Day05Solution {}
 
-impl Solution<u64> for Day05Solution {
+impl Solution for Day05Solution {
     fn problem_one(input: &str) -> Result<Answer, Box<dyn Error>>  {
         let (mut ranges, ingredients) = parse_input(input);
         ranges.sort_by_key(|range| range.0);
